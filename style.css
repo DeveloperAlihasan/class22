@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: #fff;
+    
+}
+.header-logo img{
+    width: 150px;
+    color:rgb(31, 147, 241);
+}
+
+.header-menu{}
+.header-menu ul{margin-bottom: 0;text-align: right;}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    display: block;
+    color:rgb(31, 147, 241);
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 73px;
+    border-right: 1px solid #ddd;
+    
+}
+.header-menu ul li a:hover{
+    background-color: rgba(196, 236, 247, 0.801);
+}
+.banner {
+    background-image: url("https://i.ibb.co/T4VqB3C/178934873-455404502228845-6544367562530705105-n.jpg");
+    padding: 400px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text{
+    color: #fff;
+    
+}
+.profile{
+        margin-top: 50px;
+}
+
+
+.name {
+	transform: translateY(-284px) translateX(230px);
+}
+.contact{
+    
+}
+.google-map{
+    overflow: hidden;
+}
+.footer {
+	background-color: rgb(28, 28, 243);
+	color: #fff;
+	padding: 5px;
+}
